@@ -1,0 +1,43 @@
+{
+  "User": [
+    {
+      "name": "faisal",
+      "email": "faisal@gmail.com",
+      "password": "dsadasdasdada",
+      "userType": "",
+      "id": 1
+    },
+    {
+      "name": "faisal",
+      "email": "faisal@gmail.com",
+      "password": "dsadasdasdada",
+      "userType": "Admin",
+      "id": 2
+    },
+    {
+      "name": "faisal",
+      "email": "faisal@gmail.com",
+      "password": "dsadasdasdada",
+      "userType": "Admin",
+      "id": 3
+    }
+  ],
+  "Patients": [
+    {
+      "name": "Md Faisal",
+      "email": "faisal@gmail.com",
+      "address": "CP , new delhi, India",
+      "dob": "12/2/2222",
+      "mobile": "7897897897",
+      "id": 1
+    },
+    {
+      "name": "David",
+      "email": "david@gmail.com",
+      "address": "new sdaia dsjdnasj m,sd a",
+      "dob": "12/10/1303",
+      "mobile": "7897897897",
+      "id": 2
+    }
+  ]
+}

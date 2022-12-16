@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navLink {
+        @apply hover:underline decoration-orange-400 text-center decoration-2 active:underline underline-offset-8 rounded-full p-4 cursor-pointer hover:font-bold capitalize hover:scale-110 transition-transform duration-300 ease-out;
+    }
+    .input{
+        @apply outline-none rounded-md text-gray-700 focus:invalid:bg-red-300/50 focus:valid:bg-emerald-200 bg-gray-50 px-2 h-10 transform transition-all duration-500 focus:shadow-black/30 shadow-md ease-in focus:border-b-2 focus:border-b-gray-700 w-full;
+    }
+    .button{
+        @apply  bg-red-400 h-10 font-bold hover:text-red-400 hover:bg-white hover:border hover:shadow-lg hover:shadow-red-700/75 tracking-widest hover:border-red-400 text-white rounded-full;
+    }
+    .th{
+        @apply bg-gray-600 p-2 text-white font-bold md:border 
+    }
+}
